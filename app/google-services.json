@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "163799552537",
+    "firebase_url": "https://cse-b-b274a.firebaseio.com",
+    "project_id": "cse-b-b274a",
+    "storage_bucket": "cse-b-b274a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163799552537:android:64705fbd515401de75d088",
+        "android_client_info": {
+          "package_name": "com.piysocial.cse_b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163799552537-50f9qeamom85hll799m3l31on3frsmhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD-XUgz6YOFSQQavb1t0cu-AYm3LOzMc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163799552537-50f9qeamom85hll799m3l31on3frsmhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163799552537:android:9b94bc2ec06ed9ad75d088",
+        "android_client_info": {
+          "package_name": "com.piysocial.cseb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163799552537-50f9qeamom85hll799m3l31on3frsmhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD-XUgz6YOFSQQavb1t0cu-AYm3LOzMc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163799552537-50f9qeamom85hll799m3l31on3frsmhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

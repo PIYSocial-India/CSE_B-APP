@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.piysocial.cse_b">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3644043349925813~9047033667" />
+
+        <activity android:name=".ui.announcement.classupdates" />
+        <activity android:name=".ui.announcement.collegeupdates" />
+        <activity
+            android:name=".ui.details.students"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.details.faculty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.assignment.assignmentsolutions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.assignment.assignment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.spme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.sesdm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.sps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.sala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.sdl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.scsw1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.qppme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.qpesdm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.qpps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.qpala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.qpdl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.qpcsw1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.bookspme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.booksesdm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.booksps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.booksala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.booksdl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.bookscsw1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.lppme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.lpesdm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.lpps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.lpala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.lpdl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notespme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notesesdm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notesps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notesala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notesdl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.lpcsw1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notescsw1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.solutions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.questionpapers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.books"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.leesonplans"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.resources.notes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.ttsaturday"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.ttfriday"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.ttthrusday"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.ttwednesday"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.tttuesday"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.home.ttmonday"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".privacyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".contactActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".contributeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".feedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".developerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

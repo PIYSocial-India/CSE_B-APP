@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CSE-B</string>
+    <string name="title_home">Home</string>
+    <string name="title_announcement">Announcement</string>
+    <string name="title_resources">Resources</string>
+    <string name="title_assignment">Assignments</string>
+    <string name="title_details">Class Details</string>
+</resources>

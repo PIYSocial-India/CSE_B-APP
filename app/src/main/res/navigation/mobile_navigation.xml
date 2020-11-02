@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.piysocial.cse_b.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_announcement"
+        android:name="com.piysocial.cse_b.ui.announcement.announcementFragment"
+        android:label="@string/title_announcement"
+        tools:layout="@layout/fragment_announcement" />
+
+    <fragment
+        android:id="@+id/navigation_resources"
+        android:name="com.piysocial.cse_b.ui.resources.resourcesFragment"
+        android:label="@string/title_resources"
+        tools:layout="@layout/fragment_resources" />
+
+    <fragment
+        android:id="@+id/navigation_assignment"
+        android:name="com.piysocial.cse_b.ui.assignment.assignmentFragment"
+        android:label="@string/title_assignment"
+        tools:layout="@layout/fragment_assignment" />
+
+    <fragment
+        android:id="@+id/navigation_details"
+        android:name="com.piysocial.cse_b.ui.details.detailsFragment"
+        android:label="@string/title_details"
+        tools:layout="@layout/fragment_details" />
+</navigation>

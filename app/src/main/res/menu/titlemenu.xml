@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="developers" app:showAsAction="ifRoom" android:id="@+id/developers" android:icon="@drawable/ic_developer"/>
+    <item android:title="                              " app:showAsAction="never" android:id="@+id/extra1" android:icon="@drawable/ic_extra"/>
+    <item android:title="Feedback" app:showAsAction="never" android:id="@+id/feedback" android:icon="@drawable/ic_feedback"/>
+    <item android:title="Contribute" app:showAsAction="never" android:id="@+id/contribute" android:icon="@drawable/ic_contribute"/>
+    <item android:title="Contact" app:showAsAction="never" android:id="@+id/contact" android:icon="@drawable/ic_contact"/>
+    <item android:title="Privacy Policy" app:showAsAction="never" android:id="@+id/privacy" android:icon="@drawable/ic_privacy"/>
+</menu>

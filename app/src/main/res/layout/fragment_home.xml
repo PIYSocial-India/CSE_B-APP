@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/cseblogo"
+        android:layout_width="360dp"
+        android:layout_height="260dp"
+        android:src="@drawable/ceslogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <ImageView
+        android:id="@+id/resourceslogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/browseyourschedule"
+        app:layout_constraintBottom_toTopOf="@+id/tttuesday_btn2"
+        app:layout_constraintTop_toBottomOf="@+id/cseblogo" />
+
+    <Button
+        android:id="@+id/ttmonday_btn1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape1"
+        android:text="MONDAY"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/tttuesday_btn2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape2"
+        android:text="TUESDAY"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <Button
+        android:id="@+id/ttwednesday_btn3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape3"
+        android:text="WEDNESDAY"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/ttthrusday_btn4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape4"
+        android:text="THRUSDAY"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ttmonday_btn1" />
+
+    <Button
+        android:id="@+id/ttfriday_btn5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape5"
+        android:layout_marginBottom="50dp"
+        android:text="FRIDAY"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tttuesday_btn2" />
+
+    <Button
+        android:id="@+id/ttsaturday_btn6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttonshape6"
+        android:text="SATURDAY"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ttwednesday_btn3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
